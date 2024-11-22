@@ -1,0 +1,46 @@
+print(r'''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\ ` . "-._ /_______________|_______
+|                   | |o ;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Dobrodosli na ostrvo sa blagom.")
+print("Tvoj zadatak je da pronadjes blago!.")
+direction = input("Nailazis na raskrsnicu, gde ides, lefo ili desno?? \n Napisi levo ili desno\n")
+if direction == "levo":
+    print("Nailazis na jezero!")
+    pond = input("Da li plivas ili cekas camac? \n napisi plivam ili cekam\n")
+    if pond == "cekam":
+        print("Cestitam! Camac te je prevezao preko obale. \nHodas putem i nailazis na kucu koja ima 3 ulaza. Sva 3 ulaza imaju vrata drugacije boje.\nKoja vrata biras?")
+        vrata = input("Kucaj bela plava ili zelena\n")
+        if vrata == "plava":
+            print("Cestitam! Nasao/la si blago!")
+        elif vrata == "bela":
+            print("Iza vrata se nalazi medved koji te je pojeo!\n Igra je gotova")
+        elif vrata == "zelena":
+            print("Iza vrata se nalazi vestica koja te pretvorila u zabu!\nIgra je gotova")
+        else:
+            print("Pogresan izbor, udaras u zid i padas u nesvest, cudoviste te pojelo!")
+
+
+    else:
+        print("Ne umes da plivas! Udavio/la si se!")
+else:
+    print("Upadas u rupu!\nIgra je gotova!")
+
