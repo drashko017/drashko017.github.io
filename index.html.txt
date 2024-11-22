@@ -1,0 +1,15 @@
+<a href="https://https://replit.com/@dragomirstanko0/TreasureHuntDemo#main.py" target="_blank">Play the Game</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Island Game</title>
+</head>
+<body>
+    <h1>Treasure Island Game</h1>
+    <p>Welcome to the Treasure Island text-based adventure game! Download the script or run it on an online Python interpreter to play.</p>
+    <p><a href="https://github.com/your-username/your-repo/raw/main/treasure_island.py" download>Download Game</a></p>
+    <p>Run it <a href="https://replit.com/">online here</a>!</p>
+</body>
+</html>
